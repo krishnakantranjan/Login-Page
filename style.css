@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #879abf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginform {
+    width: 250px;
+    height: 300px;
+    background-color: rgb(208, 201, 201);
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    margin-top: 20px;
+}
+.one {
+    margin-top: 50px;
+}
+.username {
+    height: 30px;
+    border-radius: 10px;
+    
+}
+.password {
+    height: 30px;
+    border-radius: 10px;
+}
+.two {
+    margin-top: 20px;
+}
+p {
+    margin-top: 15px;
+}
+.btn {
+    width: 30%;
+    height: 30px;
+    color: white;
+    font-weight: 600;
+    background-color: blue;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
